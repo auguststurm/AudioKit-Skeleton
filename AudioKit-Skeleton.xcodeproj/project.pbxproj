@@ -82,13 +82,21 @@
 			children = (
 				8DB1519D20E97BD40004202D /* AppDelegate.swift */,
 				8DB1519F20E97BD40004202D /* ViewController.swift */,
+				8DB151B120E981C00004202D /* Resources */,
+				8DB151AF20E9813F0004202D /* Samples */,
+			);
+			path = "AudioKit-Skeleton";
+			sourceTree = "<group>";
+		};
+		8DB151B120E981C00004202D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				8DB151A120E97BD40004202D /* Main.storyboard */,
 				8DB151A420E97BD60004202D /* Assets.xcassets */,
 				8DB151A620E97BD60004202D /* LaunchScreen.storyboard */,
 				8DB151A920E97BD60004202D /* Info.plist */,
-				8DB151AF20E9813F0004202D /* Samples */,
 			);
-			path = "AudioKit-Skeleton";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
