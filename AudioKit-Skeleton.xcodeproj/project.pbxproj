@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BBE476BFB8A26E0003FA7E3 /* Pods_AudioKit_Skeleton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952B798D3DB19EFFCF7727DB /* Pods_AudioKit_Skeleton.framework */; };
 		8DB1519E20E97BD40004202D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1519D20E97BD40004202D /* AppDelegate.swift */; };
 		8DB151A020E97BD40004202D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1519F20E97BD40004202D /* ViewController.swift */; };
 		8DB151A320E97BD40004202D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB151A120E97BD40004202D /* Main.storyboard */; };
 		8DB151A520E97BD60004202D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB151A420E97BD60004202D /* Assets.xcassets */; };
 		8DB151A820E97BD60004202D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB151A620E97BD60004202D /* LaunchScreen.storyboard */; };
+		8DB151B020E9813F0004202D /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 8DB151AF20E9813F0004202D /* Samples */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A16B7D4A1A6D33EB426B73 /* Pods-AudioKit-Skeleton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKit-Skeleton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioKit-Skeleton/Pods-AudioKit-Skeleton.debug.xcconfig"; sourceTree = "<group>"; };
+		5FABD39ADE944B7BDC173146 /* Pods-AudioKit-Skeleton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKit-Skeleton.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioKit-Skeleton/Pods-AudioKit-Skeleton.release.xcconfig"; sourceTree = "<group>"; };
 		8DB1519A20E97BD40004202D /* AudioKit-Skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioKit-Skeleton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB1519D20E97BD40004202D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB1519F20E97BD40004202D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		8DB151A420E97BD60004202D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB151A720E97BD60004202D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DB151A920E97BD60004202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB151AF20E9813F0004202D /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		952B798D3DB19EFFCF7727DB /* Pods_AudioKit_Skeleton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioKit_Skeleton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBE476BFB8A26E0003FA7E3 /* Pods_AudioKit_Skeleton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51EA5B6BA15CE770DE76C9F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18A16B7D4A1A6D33EB426B73 /* Pods-AudioKit-Skeleton.debug.xcconfig */,
+				5FABD39ADE944B7BDC173146 /* Pods-AudioKit-Skeleton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		587E4CF29B777D4FB1ECA9B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				952B798D3DB19EFFCF7727DB /* Pods_AudioKit_Skeleton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DB1519120E97BD40004202D = {
 			isa = PBXGroup;
 			children = (
 				8DB1519C20E97BD40004202D /* AudioKit-Skeleton */,
 				8DB1519B20E97BD40004202D /* Products */,
+				51EA5B6BA15CE770DE76C9F8 /* Pods */,
+				587E4CF29B777D4FB1ECA9B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				8DB151A420E97BD60004202D /* Assets.xcassets */,
 				8DB151A620E97BD60004202D /* LaunchScreen.storyboard */,
 				8DB151A920E97BD60004202D /* Info.plist */,
+				8DB151AF20E9813F0004202D /* Samples */,
 			);
 			path = "AudioKit-Skeleton";
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DB151AC20E97BD60004202D /* Build configuration list for PBXNativeTarget "AudioKit-Skeleton" */;
 			buildPhases = (
+				8F045DD6749168760B2FFB88 /* [CP] Check Pods Manifest.lock */,
 				8DB1519620E97BD40004202D /* Sources */,
 				8DB1519720E97BD40004202D /* Frameworks */,
 				8DB1519820E97BD40004202D /* Resources */,
+				55A447C51398A05A4F19C34D /* [CP] Embed Pods Frameworks */,
+				ECC929571609056076ABED4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB151B020E9813F0004202D /* Samples in Resources */,
 				8DB151A820E97BD60004202D /* LaunchScreen.storyboard in Resources */,
 				8DB151A520E97BD60004202D /* Assets.xcassets in Resources */,
 				8DB151A320E97BD40004202D /* Main.storyboard in Resources */,
@@ -129,6 +160,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55A447C51398A05A4F19C34D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AudioKit-Skeleton/Pods-AudioKit-Skeleton-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Timepiece/Timepiece.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Timepiece.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioKit-Skeleton/Pods-AudioKit-Skeleton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F045DD6749168760B2FFB88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioKit-Skeleton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC929571609056076ABED4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioKit-Skeleton/Pods-AudioKit-Skeleton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DB1519620E97BD40004202D /* Sources */ = {
@@ -278,6 +365,7 @@
 		};
 		8DB151AD20E97BD60004202D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A16B7D4A1A6D33EB426B73 /* Pods-AudioKit-Skeleton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +384,7 @@
 		};
 		8DB151AE20E97BD60004202D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FABD39ADE944B7BDC173146 /* Pods-AudioKit-Skeleton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
