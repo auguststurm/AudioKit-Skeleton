@@ -10,6 +10,7 @@
 		5BBE476BFB8A26E0003FA7E3 /* Pods_AudioKit_Skeleton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952B798D3DB19EFFCF7727DB /* Pods_AudioKit_Skeleton.framework */; };
 		8D038DA620E9823E00741E70 /* AKSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D038DA520E9823E00741E70 /* AKSModel.swift */; };
 		8D038DA820E9841000741E70 /* samplesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D038DA720E9841000741E70 /* samplesData.json */; };
+		8D038DAD20E9A72400741E70 /* AKSSequencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D038DAC20E9A72400741E70 /* AKSSequencer.swift */; };
 		8DB1519E20E97BD40004202D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1519D20E97BD40004202D /* AppDelegate.swift */; };
 		8DB151A020E97BD40004202D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1519F20E97BD40004202D /* ViewController.swift */; };
 		8DB151A320E97BD40004202D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB151A120E97BD40004202D /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		5FABD39ADE944B7BDC173146 /* Pods-AudioKit-Skeleton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKit-Skeleton.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioKit-Skeleton/Pods-AudioKit-Skeleton.release.xcconfig"; sourceTree = "<group>"; };
 		8D038DA520E9823E00741E70 /* AKSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKSModel.swift; sourceTree = "<group>"; };
 		8D038DA720E9841000741E70 /* samplesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplesData.json; sourceTree = "<group>"; };
+		8D038DAC20E9A72400741E70 /* AKSSequencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKSSequencer.swift; sourceTree = "<group>"; };
 		8DB1519A20E97BD40004202D /* AudioKit-Skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioKit-Skeleton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB1519D20E97BD40004202D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB1519F20E97BD40004202D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				8DB1519D20E97BD40004202D /* AppDelegate.swift */,
 				8DB1519F20E97BD40004202D /* ViewController.swift */,
 				8D038DA520E9823E00741E70 /* AKSModel.swift */,
+				8D038DAC20E9A72400741E70 /* AKSSequencer.swift */,
 				8DB151B120E981C00004202D /* Resources */,
 				8D038DA720E9841000741E70 /* samplesData.json */,
 				8DB151AF20E9813F0004202D /* Samples */,
@@ -240,6 +243,7 @@
 				8DB151A020E97BD40004202D /* ViewController.swift in Sources */,
 				8D038DA620E9823E00741E70 /* AKSModel.swift in Sources */,
 				8DB1519E20E97BD40004202D /* AppDelegate.swift in Sources */,
+				8D038DAD20E9A72400741E70 /* AKSSequencer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

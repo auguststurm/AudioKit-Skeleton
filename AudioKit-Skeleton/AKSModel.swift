@@ -26,12 +26,16 @@ class AKSModel {
 	}
 	
 	class public func getSampleDuration(sampleFilename: String) -> Double {
+		let sampleFileAsset = AVURLAsset(url: fileURLFor(sampleFilename: sampleFilename))
+		let sampleFileDuration = Double(CMTimeGetSeconds(sampleFileAsset.duration))
+		return sampleFileDuration
+	}
+	
+	class public func fileURLFor(sampleFilename: String) -> URL {
 		let sampleFileAndExtension = sampleFilename.components(separatedBy: ".")
 		let sampleFilePath = Bundle.main.path(forResource: sampleFileAndExtension[0], ofType: sampleFileAndExtension[1], inDirectory: "Samples")
 		let sampleFileURL = URL(fileURLWithPath: sampleFilePath!)
-		let sampleFileAsset = AVURLAsset(url: sampleFileURL)
-		let sampleFileDuration = Double(CMTimeGetSeconds(sampleFileAsset.duration))
-		return sampleFileDuration
+		return sampleFileURL
 	}
 	
 }

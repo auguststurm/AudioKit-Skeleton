@@ -1,21 +1,21 @@
 [
 	{
 		"title": "Crow Caw",
-		"file": "Crow_Caw.aiff",
+		"filename": "Crow_Caw.aiff",
 		"note": "60",
 		"volume": "0.75",
 		"startSecond": "0"
 	},
 	{
 		"title": "Satellite Ping",
-		"file": "Satellite_Ping.aiff",
+		"filename": "Satellite_Ping.aiff",
 		"note": "60",
 		"volume": "0.5",
 		"startSecond": "4.0"
 	},
 	{
 		"title": "Clerk Bell",
-		"file": "Clerk_Bell.aiff",
+		"filename": "Clerk_Bell.aiff",
 		"note": "60",
 		"volume": "0.25",
 		"startSecond": "7.0"
